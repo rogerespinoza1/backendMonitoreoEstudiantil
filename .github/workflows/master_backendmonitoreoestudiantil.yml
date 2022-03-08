@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'backendMonitoreoEstudiantil'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2CB287CD3E4648A2B5FD91DE340EF38E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_543C0F47950B4BE78A2FBCFE9C2CD826 }}
           package: .
