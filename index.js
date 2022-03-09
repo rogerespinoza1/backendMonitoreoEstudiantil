@@ -12,6 +12,6 @@ app.use(express.json());
 app.use('/api/alumnos', require('./routes/alumno'));
 
 
-app.listen(process.env.PORT||4000, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log('server on port 4000');
 })
